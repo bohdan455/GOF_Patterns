@@ -1,0 +1,3 @@
+﻿The Adapter Pattern is useful when we have two incompatible interfaces that need to work together.
+
+For example, suppose our service communicates using XML, but a new client library expects JSON. To allow the client library to interact with our service without modifying either one, we can introduce an adapter. This adapter will convert data between XML and JSON, acting as a bridge between the two systems.
